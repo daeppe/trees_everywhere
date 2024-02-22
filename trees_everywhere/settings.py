@@ -41,7 +41,7 @@ DJANGO_APPS = [
 
 THIRD_PARTY_APPS = []
 
-MY_APPS = []
+MY_APPS = ["account", "planted_tree", "tree", "user", "user_profile"]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + MY_APPS
 
